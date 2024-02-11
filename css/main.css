@@ -1,0 +1,143 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px; 
+    margin: 0px;
+}
+body{
+    font-family: 'Young Serif', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+span{
+    font-weight: 600;
+}
+
+/*medias ............*/
+/*Desktop Media*/
+@media(max-width:1440px){
+    .container{
+        width: 1200px;
+    }
+}
+
+/*mobile media */
+@media(max-width :379px){
+
+    .container{
+        width: 350px;
+    }
+}
+/*end media.........*/
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .ima-cont
+{
+    margin-top: 15px;
+}
+.ima-cont img{
+    width: -webkit-fill-available;
+    
+    border-radius: 10px;
+}
+.container .recipe-desc{
+    padding-top: 20px;
+}
+.container .recipe-desc h2{
+    font-weight: 400;
+}
+.container .recipe-desc p{
+    font-size: 12px;
+    font-weight: normal;
+    color: hsl(30, 10%, 34%);
+    padding-top: 10px;
+}
+.container .prep-time{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.container .prep-time ul{
+    font-size: 14px;
+}
+
+.container .prep-time .content h3{
+    transform: translateX(-18px);
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.container .prep-time .content ul li{
+    padding-bottom: 8px;
+    
+
+}
+.container .ingre{
+    padding-top: 20px;
+
+}
+.container .ingre h2{
+    font-weight: normal;
+    color: hsl(332, 51%, 32%);
+}
+.container .ingre ul{
+    margin:10px 0px 30px 20px;
+    font-size: 14px;
+}
+.container .ingre ul li{
+    margin-bottom: 7px;
+}
+.container .instr{
+    padding-top: 20px;
+}
+.container .instr h2{
+    font-weight: normal;
+    color: hsl(332, 51%, 32%);
+}
+.container .instr ol{
+    margin:10px 0px 30px 20px;
+    font-size: 14px;
+}
+.container .instr ol li{
+    padding: 0px 0px 10px 10px;
+}
+.container .nuration{
+    padding-top: 20px;
+}
+
+.container .nuration h2{
+    font-weight: normal;
+    color: hsl(332, 51%, 32%);
+}
+.container .nuration p{
+    margin: 10px 0px 30px ;
+    font-size: 14px;
+}
+.container .nuration .inf{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(150px ,1fr ));
+    grid-template-rows: 10px;
+} 
+.container .nuration .inf ul{
+    list-style: none;
+}
+.container .nuration .inf ul li{
+    padding-bottom: 20px;
+
+}
+.container .nuration .inf ul  hr{
+    margin-bottom: 10px;
+}
+
